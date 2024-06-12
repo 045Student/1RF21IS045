@@ -1,0 +1,15 @@
+<!-- app1/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combinations</title>
+</head>
+<body>
+    <h1>All combinations of the word "{{ word }}"</h1>
+    <ul>
+        {% for comb in combinations %}
+            <li>{{ comb }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
